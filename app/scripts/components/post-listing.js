@@ -21,7 +21,7 @@ var PostsListing = React.createClass({
 		});
 
 		var postNodes = filteredPosts.map(function(post) {
-			return <Post post={post} />;
+			return <Post key={post.url} title={post.title} url={post.url} author={post.author} />;
 		});
 
 		return (
