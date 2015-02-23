@@ -13,13 +13,3 @@ var Post = React.createClass({
 		);
 	}
 });
-
-var HelloWorld = React.createClass({
-	render: function() {
-		return React.createElemet(
-			'p',
-			null,
-			'Hello' + this.props..name + '!'
-		);
-	}
-});
