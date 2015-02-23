@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="">
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimal-ui">
+    <title>react demo</title>
+    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+    <!-- build:css styles/vendor.css -->
+    <!-- bower:css -->
+    <!-- endbower -->
+    <!-- endbuild -->
+
+    <!-- build:css styles/main.css -->
+    <link rel="stylesheet" href="styles/main.css">
+    <!-- endbuild -->
+
+  </head>
+  <body>
+
+    <section id="controls">
+      <span>Outside of react. This is not a component</span>
+      <button id="add-button">Load more posts</button>
+    </section>
+
+    <main id="app">
+    </main>
+
+    <!-- build:js scripts/vendor.js -->
+    <!-- bower:js -->
+    <script src="../bower_components/react/react.js"></script>
+    <script src="../bower_components/react/JSXTransformer.js"></script>
+    <!-- endbower -->
+    <!-- endbuild -->
+
+    <!-- build:js scripts/main.js -->
+    <script src="scripts/post-model.js"></script>
+    <script src="scripts/ajax.js"></script>
+    <script src="scripts/components/search.js" type="text/jsx"></script>
+    <script src="scripts/components/post.js" type="text/jsx"></script>
+    <script src="scripts/components/post-listing.js" type="text/jsx"></script>
+    <script src="scripts/main.js" type="text/jsx"></script>
+    <!-- endbuild -->
+</body>
+</html>

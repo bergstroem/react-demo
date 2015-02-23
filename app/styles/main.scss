@@ -1,0 +1,113 @@
+// bower:scss
+// endbower
+
+body {
+  background: #fafafa;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  color: #333;
+  background: #ecf0f1;
+  padding: 0;
+  margin: 0;
+  font-weight: 300;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+}
+
+p {
+  margin: 0.2em 0;
+  padding: 0;
+  color: #888;
+}
+
+h1 {
+  font-size: 1.4em;
+  font-weight: 300;
+  margin: 0.2em 0;
+  padding: 0;
+}
+
+input {
+  display: block;
+  border-width: 0px;
+  padding: 0.8em;
+  margin: 0.5em 0;
+  background-color: white;
+  outline: none;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: 300;
+  font-size: 1em;
+}
+
+section#controls {
+  padding: 1.5em;
+  background-color: #2c3e50;
+  color: white;
+}
+
+button {
+  display: block;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  position: relative;
+  border-width: 0px;
+  padding: 0.5em 0.8em;
+  margin: 0.5em 0;
+  background-color: #3498db;
+  box-shadow: 0px 3px 0 #2980b9;
+  border-radius: 3px;
+  color: white;
+  outline: none;
+  font-size: 0.9em;
+  font-weight: 300;
+
+  &:active {
+    box-shadow: 0px 0px 0 #2980b9;
+    top: 3px;
+  }
+}
+
+.posts {
+  header {
+    padding: 1.5em;
+  }
+
+  .loading {
+    padding: 1.5em;
+  }
+
+  .grid {
+    overflow: hidden;
+    padding: 1em;
+    .post {
+      width: 50%;
+      float: left;
+
+      >div {
+        padding: 1em;
+        margin: 0.5em;
+        background-color: white;
+
+        * {
+          width: 100%;
+          text-overflow: ellipsis;
+          white-space: nowrap;
+          overflow: hidden;
+        }
+      }
+    }
+  }
+
+  .list {
+    .post {
+      width: 100%;
+      padding: 0 1.5em;
+      margin: 0.9em 0;
+    }
+  }
+}

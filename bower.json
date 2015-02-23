@@ -1,0 +1,7 @@
+{
+  "name": "react-demo",
+  "private": true,
+  "dependencies": {
+    "react": "~0.12.2"
+  }
+}
